@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "react-tuple-record",
+  "version": "0.0.1",
+  "description": "Experiment with React, Record and Tuple",
+  "main": "index.js",
+  "author": "Faiz Azmi Rekatama",
+  "license": "MIT",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-record-and-tuple": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@bloomberg/record-tuple-polyfill": "^0.0.3",
+    "esbuild": "^0.9.5",
+    "esbuild-plugin-babel": "^0.2.3"
+  }
+}
