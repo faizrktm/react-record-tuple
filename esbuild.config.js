@@ -7,7 +7,7 @@ esbuild
         entryPoints: ['src/index.jsx'],
         bundle: true,
         sourcemap: true,
-        minify: false,
+        minify: true,
         outfile: 'dist/index.js',
         plugins: [babel()],
         define: {
