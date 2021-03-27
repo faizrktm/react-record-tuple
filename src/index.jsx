@@ -20,8 +20,6 @@ const App = () => {
   const regularArrObj = [{name: 'Aloha'}];
   const tuple = #[#{name: 'Aloha'}];
 
-  console.log(Record.from(regularObj));
-
   const onClickCount = () => {
     setCount((prev) => {
       return prev + 1;
