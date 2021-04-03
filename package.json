@@ -7,7 +7,7 @@
   "author": "Faiz Azmi Rekatama",
   "license": "MIT",
   "scripts": {
-    "build": "node esbuild.config.js"
+    "build": "rm -rf dist && node esbuild.config.js"
   },
   "dependencies": {
     "react": "^17.0.1",
